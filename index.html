@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MilkcocoaでRPG風味なLifeHack!</title>
+        <meta charset="utf-8">
+		<link href="css/main.css" type="text/css" rel="stylesheet" />
+		<script src="https://cdn.mlkcca.com/v2.0.0/milkcocoa.js"></script>
+        <script src="js/slides.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/texutil.js"></script>
+		<script src="js/custom.js"></script>
+    </head>
+    <body style="display: none">
+        <section class="slides layout-regular template-default">
+        	<!-- TITLE -->
+            <article>
+                <h1>Milkcocoaで<br>RPG風味なLifeHack!</h1>
+                <p>Aya Igarashi <a href="https://twitter.com/Ladicle">@Ladicle</a></p>
+				<p class="blackMessage"><br><br><br>▶ <span class="bulink">Start</span></p>
+				<div class="milkdokan">
+					<img src="images/like-color.png" alt="like" class="likeButton bound" />
+					<img src="images/dokan.png" alt="dokan" class="dokan" />
+				</div>
+            </article>
+            <!-- HOWTO-PLAY -->
+            <article>
+                <h3>あそびかた</h3>
+                <ul>
+                	<li>スライドのURLは<strong>http://ladicle.github.io/rpglife</strong></li>
+			<li>右下のドカンをClickするとクリック数に応じてPAGEのレベルが上昇します
+			(いいね!と思ったらそのページでClickしてみてください)</li>
+			<li>レベルが上昇するとPAGEの見た目も...??<br><br></li>
+			<li>レベルUpすると私のやる気がもUpします(>∀<)☆</li>
+                </ul>
+                <div class="milkdokan">
+					<img src="images/like-color.png" alt="like" class="likeButton bound" />
+					<img src="images/dokan.png" alt="dokan" class="dokan" />
+				</div>
+            </article>
+            <!-- OUTLINE?? -->
+			<article>
+                <h3>あらすじ</h3>
+                <ul>
+                    <li>
+                    	今から約半年前ーー<br>バグは<strong>ドラゴン</strong>と呼ばれ、人々を混乱の渦に貶めた。<br>
+			        	しかし、そんな世界にも光はあった。平穏な世界を取り戻すべく、勇敢な戦士達が立ち上がったのだ!!! ...(ry<br>
+                    </li>
+                    <li>そんなこんなで、バグ=ドラゴンのようにゲームっぽく変換して生活するとやる気が上がることに気づきました。これぞRPG風味なLifeHack！</li>
+                    <li>これをもうちょっとナウい<strong>IoT</strong>と一緒に組み合わせて楽しめないかな?と思い今回実験してみました。</li>
+                </ul>
+  				<div class="milkdokan">
+					<img src="images/like-color.png" alt="like" class="likeButton bound" />
+					<img src="images/dokan.png" alt="dokan" class="dokan" />
+				</div>
+            </article>
+ 			<!-- MINI-DRAGON -->
+            <article>
+                <h3>お掃除を荒らすミニドラゴンの討伐</h3>
+                <ul>
+			<li>下の写真はミニドラゴンを倒すことができる<br>その名も<strong>勇者の掃除機</strong>です!</li>
+			<li><img src="images/IMG_0564.JPG" width="300"/></li>
+                </ul>
+		
+   				<div class="milkdokan">
+					<img src="images/like-color.png" alt="like" class="likeButton bound" />
+					<img src="images/dokan.png" alt="dokan" class="dokan" />
+				</div>
+            </article>
+ 			<!-- MINI-DRAGON -->
+            <article>
+                <h3>お掃除を荒らすミニドラゴンの討伐</h3>
+                <ul>
+                    <li>この武器を使ってお部屋をお掃除すると、<br>動きに合わせて<br><br>
+                    	<ul>
+                        	<li><strong>シャキーン</strong>(注: 攻撃音)</li>
+                            <li>カキーン(注: 攻撃音)</li>
+                            <li><strong>ズバッ!!</strong>(改心の一撃)&<br> ピカッ(照明がゆらぐ感じ)</li>
+                        </ul>
+			<br>
+                        といった、インタラクティブな反応を返してくれます。
+                    </li>
+                </ul>
+   				<div class="milkdokan">
+					<img src="images/like-color.png" alt="like" class="likeButton bound" />
+					<img src="images/dokan.png" alt="dokan" class="dokan" />
+				</div>
+            </article>
+
+	    <!-- CREATE -->
+            <article>
+                <h3>勇者の掃除機のつくりかた</h3>
+                <ul>
+                    <li>1. スマホが安定して収まるよう<br>紙コップの左右を<strong>三角形</strong>にくり抜く</li>
+		    <li>2. スマホから加速度を取得して<br><strong>Milkcocoa</strong>に保存するアプリをつくる</li>
+		    <li>3. 紙コップに<strong>NFCタグ</strong>をはり、<br>このタグにアプリ自動起動の設定を書き込む</li>
+		    <li>4. RPGなSoundEffect(SE)を鳴らすAPIサーバをたてる</li>
+                    <li>5. Milkcocoaにデータが保存されると、<br>その<strong>値に応じて</strong>SEやHueのAPIを叩くアプリをつくる</li>
+                </ul>
+   				<div class="milkdokan">
+					<img src="images/like-color.png" alt="like" class="likeButton bound" />
+					<img src="images/dokan.png" alt="dokan" class="dokan" />
+				</div>
+            </article>
+  			<!-- MILKCOCOA -->
+            <article>
+                <h3>Milkcocoaのよかったところ</h3>
+                <ul>
+                    <li>とにかく簡単だった!!! 学習コストはないに等しいです</li>
+		    <li>使いかたとしては... <br>イベントとイベントをつなぐのに便利でした</li>
+		    <li>とくに、今回のように外部に出したくないサーバーを<br>家の中に留めることができるのがよいです</li>
+		    <br>
+		    <img src="images/untitled.png" alt="house" width="500" />
+                </ul>
+   				<div class="milkdokan">
+					<img src="images/like-color.png" alt="like" class="likeButton bound" />
+					<img src="images/dokan.png" alt="dokan" class="dokan" />
+				</div>
+            </article>
+			<!-- OMAKE -->
+            <article>
+                <h3>ド○クエ風に部屋に入る</h3>
+                <ul>
+                    <li>生活をRPG化した中で一番よかったのは、</li>
+                    <li>ドアの開閉センサにあわせ、<br>ド○クエのドア開閉音を鳴らすことです!</li>
+                    <li>おもいの外気分が盛り上がるのでオススメです</li>
+                </ul>
+                <div class="milkdokan">
+					<img src="images/like-color.png" alt="like" class="likeButton bound" />
+					<img src="images/dokan.png" alt="dokan" class="dokan" />
+				</div>
+            </article>
+            <article>
+                <h1>Thank you!</h1>
+				<div class="milkdokan">
+					<img src="images/like-color.png" alt="like" class="likeButton bound" />
+					<img src="images/dokan.png" alt="dokan" class="dokan" />
+				</div>
+            </article>
+        </section>
+    </body>
+</html>
