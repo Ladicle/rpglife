@@ -1,0 +1,13 @@
+* RPG Life
+
+Milkcocoa vol.4のスライド
+
+** Link
+- Slide-URL: http://ladicle.github.io/rpglife/
+
+** Embedded Tag
+#+BEGIN_SRC html
+<iframe src="//ladicle.github.io/rpglife/" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="zoom:50% border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+</iframe>
+#+END_SRC
+
